@@ -1,0 +1,57 @@
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <br>
+    <br>
+    SELECT YOUR HOROSCOPE
+</head>
+
+<body onload="monthdays(1)">
+<br>
+<br>
+<button class="submit" onclick="capricorn()">CAPRICORN</button>
+<button class="submit" onclick="aquarius()">AQUARIUS</button>
+<button class="submit" onclick="pisces()">PISCES</button>
+<button class="submit" onclick="aries()">ARIES</button>
+<button class="submit" onclick="taurus()">TAURUS</button>
+<button class="submit" onclick="gemini()">GEMINI</button>
+<button class="submit" onclick="cancer()">CANCER</button>
+<button class="submit" onclick="leo()">LEO</button>
+<button class="submit" onclick="virgo()">VIRGO</button>
+<button class="submit" onclick="libra()">LIBRA</button>
+<button class="submit" onclick="scorpio()">SCORPIO</button>
+<button class="submit" onclick="sagittarius()">SAGITTARIUS</button>
+<br>
+<br>
+If You don't already know your horoscope enter your birthday below.
+<br>
+<br>
+<select id="month" onchange="monthdays(this.value)">
+    <option value="0">Select Month</option>
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>
+<select id="day">
+</select>
+<button class="submit" onclick="Submit()">SUBMIT</button>
+<br>
+<br>
+<div id ="img"></div>
+<br>
+<div id="sign"></div>
+<div id="birthday"></div>
+</body>
+
+</html>

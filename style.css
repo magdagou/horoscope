@@ -1,0 +1,27 @@
+head{
+    font-family: "Avenir Next";
+    font-size: xx-large;
+    text-align: center;
+    color: lightcyan;
+}
+
+body {
+    font-family: "Avenir Next";
+    font-size: x-large;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/736x/55/5d/1a/555d1a3f5e20eefd6dc6f9f9a577fd8c--kawaii-wallpaper-star-wallpaper.jpg);
+    color: ghostwhite;
+}
+
+.submit{
+
+    font-family: "Avenir Next";
+    background-color: white;
+    font-size: small;
+    text-align: center;
+}
+
+button {
+
+}
+
